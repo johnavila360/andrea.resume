@@ -138,7 +138,7 @@ body {
     width: 100%;
     text-align: left;
     font-size: 0.85rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .contact-info p {
@@ -158,6 +158,53 @@ body {
     width: 20px;
     color: #6C63FF;
     font-size: 0.95rem;
+}
+
+/* Personal Details */
+.personal-details {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.personal-details h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #f1f5f9;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem 0.8rem;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+}
+
+.detail-label {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #94a3b8;
+}
+
+.detail-value {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #e2e8f0;
 }
 
 /* Skills */
@@ -522,6 +569,10 @@ body {
     .achievement-grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    .detail-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 500px) {
@@ -546,5 +597,9 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.3rem;
+    }
+
+    .detail-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }

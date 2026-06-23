@@ -55,5 +55,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ----- Console greeting -----
     console.log('🚀 BSIS Student Resume — Built with ❤️');
-    console.log('👩‍💻 Maria Santos — 2nd Year BSIS');
+    console.log('👨‍💻 Mark Andrie H. Maghinay — 2nd Year BSIS');
 });
